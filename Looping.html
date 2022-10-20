@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //for loop
+    var array=["abc","defghi",3,4,5]
+    for(i=0; i<10; i++){
+
+        console.log(array)
+    }
+    for(let i=10;i>10;i--){
+ console.log(i)
+     }
+     //for in loop
+     var address={
+        city:'palani',
+        district:'Dindigul',
+        state:'Tamil Nadu',
+        country:'India'
+     }
+        for(var key in address){
+         //console.log(key)
+        console.log(address.city,address.state)
+        }
+//for of loop
+
+var fruit=["mango","apple","orange"]
+for(var index of fruit){
+    console.log(index)
+    
+}
+//for in with array
+     
+//var fruit=["mango","apple","orange"]
+for(var key in fruit){
+    //console.log(key)
+    console.log(fruit[key])
+}
+    //for each
+const sub=[1,2,3,4,5,6,7,8,9,10]
+sub.forEach((Element)=>console.log(Element*2))
+
+
+const fruits=["apple","grapes","banana"]
+fruits.forEach((Element,index)=>console.log(index,Element))
+fruits.forEach((Element)=>console.log(Element))
+    
+</script>
+    
+</body>
+</html>
